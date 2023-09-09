@@ -1,7 +1,9 @@
+@import "_variables";
+
 //primera sección
 
 .contacto_titulo{
-    font-size: 3rem;
+    font-size: $font-sizeL;
     margin: 50px;
     text-align: center;
 }
@@ -23,11 +25,11 @@
             text-align: center;
         }
         .datos_titulo{
-            font-size: 2rem;
+            font-size: $font-sizeM;
             font-style: italic;
         }
         .datos_contenido{
-            font-size: 1.5rem;
+            font-size: $font-sizeS;
         }
         .mapa{
             width: 300px;

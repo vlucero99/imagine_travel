@@ -1,3 +1,5 @@
+@import "_variables";
+
 @media (max-width: 700px){
     //index
 
@@ -12,11 +14,11 @@
                 font-size: 1.7rem;
                 padding-top: 250px;
                 padding-right: 22px;
-                color: #471d08;
+                color: $marron;
             }
             .frase{
                 font-size: 4rem;
-                color: #471d08;
+                color: $marron;
                 padding-top: 20px;
                 padding-bottom: 50px;
             }
@@ -77,10 +79,10 @@
         margin-top: 50px;
         margin-bottom: 20px;
             .experiencia{
-                font-size: 3rem;
+                font-size: $font-sizeL;
                 padding-top: 50px;
                 padding-bottom: 80px;
-                color: white;
+                color: $blanco;
             }
     }
 
@@ -102,11 +104,11 @@
     //sobre nosotros
 
     .imagine{
-        font-size: 2rem;
+        font-size: $font-sizeM;
         text-align: justify;
         margin: 40px;
             .imagine_b{
-                color: #d87895;
+                color: $rosa;
             }
     }
     .nosotros{
@@ -155,7 +157,7 @@
     //contacto
 
     .contacto_titulo{
-        font-size: 2rem;
+        font-size: $font-sizeM;
         margin: 50px;
         text-align: center;
     }
@@ -165,7 +167,7 @@
             .datos_empresa{
                 text-align: center;
                     .datos_titulo{
-                        font-size: 1.5rem;
+                        font-size: $font-sizeS;
                         font-style: italic;
                     }
                     .datos_contenido{

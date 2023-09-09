@@ -1,11 +1,13 @@
+@import "_variables";
+
 //primera sección
 
 .imagine{
-    font-size: 3rem;
+    font-size: $font-sizeL;
     text-align: justify;
     margin: 40px;
         .imagine_b{
-            color: #d87895;
+            color: $rosa;
         }
 }
 
@@ -22,7 +24,7 @@
             display: grid;
             grid-template-rows: 1fr 1fr;
             height: 200px;
-            font-size: 2rem;
+            font-size: $font-sizeM;
                 .familia_2_texto_titulo{
                     align-self: end;
                     }
@@ -34,7 +36,7 @@
             display: grid;
             grid-template-rows: 1fr 1fr;
             height: 200px;
-            font-size: 2rem;
+            font-size: $font-sizeM;
             justify-self: end;
             text-align: end;
                 .pareja_2_texto_titulo{
@@ -52,10 +54,10 @@
 //tercera sección
 
 .video{
-    background-color: #d87895;
+    background-color: $rosa;
     padding-top: 25px;
         .video_titulo{
-            color: white;
+            color: $blanco;
         }
         .video_b{
             display: flex;
