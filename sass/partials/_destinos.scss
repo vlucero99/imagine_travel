@@ -1,0 +1,44 @@
+//primera sección
+
+h5{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.todos_destinos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+    margin: 50px;
+        .foto{
+            width: 100%;
+            height: 250px;
+            border-radius: 0px;
+                &:hover {
+                    filter: opacity(.5);
+                }
+        }
+}
+
+//segunda sección
+
+.preguntas_frecuentes{
+    text-align: center;
+        h6{
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+        .accordion{
+            margin: 50px;
+                .boton{
+                    width: 100%;
+                    text-align: center;
+                    font-size: 2rem;
+                }
+                .accordion-body{
+                    font-size: 1.5rem;
+                }
+        }
+
+}

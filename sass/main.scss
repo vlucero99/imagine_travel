@@ -1,0 +1,30 @@
+@use "partials/_header";
+@use "partials/_footer";
+@use "partials/_index";
+@use "partials/_destinos";
+@use "partials/_sobre_nosotros";
+@use "partials/_contacto";
+@use "partials/_mi_cuenta";
+@use "partials/_vista_mobile";
+
+* { 
+    margin: 0;
+    padding: 0;}
+    html{
+        font-size: 62.5%;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        background-image: url(../img/triangle-mosaic.webp);
+    }
+
+    body::-webkit-scrollbar {
+        width: 10px;               
+    }
+    body::-webkit-scrollbar-track {
+        background: black;        
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: #d87895;    
+        border-radius: 20px;       
+        border: 3px solid black; 
+    }

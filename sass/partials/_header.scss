@@ -1,0 +1,32 @@
+header{
+    height: 70px;
+    background-color: #d87895;
+    position: sticky; 
+    top: 0px;
+    width: 100%;
+    justify-content: center;
+    z-index: 3;
+    .navbar{
+        padding: 0;
+        position: sticky;
+        }
+        .container-fluid{
+            background-color: #d87895;
+            margin-top: 0;
+        }
+        
+        .logo{
+            height: 60px;
+            width: 120px;
+            margin-left: 50px;
+        }
+        .navbar-nav{
+            display:flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+        .nav-item{
+            font-size: 2rem;
+        }
+}

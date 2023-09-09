@@ -1,0 +1,151 @@
+//primera sección
+
+.principal{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/Que-llevar-a-un-viaje.jpg);
+    background-position: -240px center;
+    text-align: center;
+        .titulo{
+            font-size: 3rem;
+            padding-top: 350px;
+            color: #471d08;
+        }
+    
+        .frase{
+            font-size: 8rem;
+            color: #471d08;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+    
+        .iniciar_sesion{
+            text-align: center;
+            background-color: #FFCF99;
+            border-radius: 40px;
+            padding: 20px;
+            display: inline-block;
+            font-size: 2rem;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+    }
+}
+
+//segunda sección
+
+.destinos{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+        h2{
+            font-size: 3rem;
+            text-decoration: none;
+            margin-top: 50px;
+        }
+        .carousel{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+                #carouselExampleCaptions{
+                    width: 900px;
+                    height: 500px;
+                    .carousel-inner{
+                        border-radius: 40px;
+                            .d-block{
+                                height: 500px;
+                            }
+                            h3{
+                                font-size: 4rem;
+                                background-color: rgba(128, 128, 128, 0.596);
+                                border-radius: 40px;
+                            }
+                    }
+                }
+        }
+}
+.ver_destinos{ 
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+        .ver_todos{
+            text-align: center;
+            background-color: #FFCF99;
+            padding: 20px;
+            border-radius: 40px;
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+        }
+}
+
+//tercera sección
+
+h4{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.recomendaciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    row-gap: 20px;
+        img{
+            width: 290px;
+            height: 215px;
+            border-radius: 40px;
+        }
+        .historia{
+            width: 290px;
+            text-align: center;
+            padding-left: 20px;
+            font-size: 1.5rem;
+            }
+}
+.sobre_nosotros{
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+        .ver_mas{
+            text-align: center;
+            background-color: #FFCF99;
+            padding: 20px;
+            border-radius: 40px;
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+        }
+}
+
+//cuarta sección
+
+.contacto{
+    background-image: url(https://alanxelmundo.com/wp-content/uploads/2013/03/IMG_0317.jpg);
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+        .experiencia{
+            font-size: 5rem;
+            padding-top: 50px;
+            padding-bottom: 80px;
+            color: white;
+        }
+        .contactanos{
+            text-align: center;
+            background-color: #FFCF99;
+            border-radius: 40px;
+            padding: 20px;
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+        }
+}

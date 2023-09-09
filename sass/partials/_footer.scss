@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+        .copyright{
+            padding-top: 40px;
+            padding-left: 20px;
+            font-size: 1.5rem;
+        }
+        .redes{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            list-style: none;
+                .wpp{
+                    height: 65px;
+                    width: 65px;
+                    display: inline-block;
+                }
+                .ig{
+                    height: 40px;
+                    width: 40px;
+                }
+                .fb{
+                    height: 50px;
+                    width: 50px;
+                    display: inline-block;
+                }
+        }
+}
