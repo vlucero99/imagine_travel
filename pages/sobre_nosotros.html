@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagine Travel</title>
+    <meta name="description" content="Estamos en el negocio hace más de 20 años, haciendo que cada vez más personas cumplan sus sueños de viajes.">
+    <meta name="keywords"  content="Viajes, viajar, paquetes, ofertas, vuelos, turismo, hoteles">
+    <title>Sobre Nosotros-Imagine Travel</title>
     
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -14,39 +16,38 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Quicksand&display=swap" rel="stylesheet">
     <!-- css main -->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="../img/Wordmark-Color@500.png" alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/Wordmark-Color@500.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./destinos.html">Destinos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./sobre_nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./mi_cuenta.html">Mi cuenta</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li> -->
-                </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mi_cuenta.html">Mi cuenta</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            </nav>
+        </nav>
     </header>
     <main>
         <!-- primera sección -->
@@ -57,26 +58,30 @@
 
         <!-- segunda sección -->
         <section class="nosotros">
-            <div class="foto_familia_2"><img class="fotos" src="../img/familia_2.jpg" alt="familia"></div>
-            <div><p class="familia_2_texto">
-                <strong class="familia_2_texto_titulo">Nuestra Misión</strong>
-                Mejorar la experiencia de nuestros clientes antes, durante y después de su viaje, para que todo salga tal cual lo soñaron.</p></div>
-            <div><p class="pareja_2_texto">
-                <strong class="pareja_2_texto_titulo">Nuestro Propósito</strong>
-                Conectar personas con su destino soñado y facilitar el proceso para que lo vivan plenamente.</p></div>
-            <div class="foto_pareja_2"><img class="fotos" src="../img/Pareja_2.jpg" alt="pareja"></div>
+            <div class="foto_familia_2" data-aos="fade-left" data-aos-duration="1500"><img class="fotos" src="../img/familia_2.jpg" alt="familia"></div>
+            <div>
+                <p class="familia_2_texto" data-aos="fade-left" data-aos-duration="1500">
+                    <strong class="familia_2_texto_titulo">Nuestra Misión</strong>
+                    Mejorar la experiencia de nuestros clientes antes, durante y después de su viaje, para que todo salga tal cual lo soñaron.</p>
+            </div>
+            <div>  
+                <p class="pareja_2_texto" data-aos="fade-right" data-aos-duration="1500">
+                    <strong class="pareja_2_texto_titulo">Nuestro Propósito</strong>
+                    Conectar personas con su destino soñado y facilitar el proceso para que lo vivan plenamente.</p>
+            </div>
+            <div class="foto_pareja_2" data-aos="fade-right" data-aos-duration="1500"><img class="fotos" src="../img/Pareja_2.jpg" alt="pareja"></div>
             </section>
         
         <!-- tercera sección -->
         <section class="video">
             <h5 class="video_titulo">¿Por qué lo hacemos?</h5>
-            <div class="video_b"><video controls preload> 
+            <div class="video_b"><video class="video_c" controls preload> 
                 <source src="../img/Imagine_travel.mp4" type=video/mp4></div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" data-aos="zoom-in" data-aos-duration="1000">
             <div class="experiencia" ><strong>Tu experiencia comienza aquí</strong></div>
-            <a class="contactanos" href="./pages/contacto.html">Contáctanos</a>
+            <a class="contactanos" href="./contacto.html">Contáctanos</a>
         </section>
     </main>
     <footer>
@@ -88,7 +93,13 @@
         </ul>
     </footer>
 
-        <!-- bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
