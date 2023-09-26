@@ -7,21 +7,25 @@
         height: 500px;
         width: 100%;
         background-image: url(../img/Que-llevar-a-un-viaje.jpg);
-        background-size: cover;
-        background-position: center;
         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contenedor_titulo{
             .titulo{
-                font-size: 1.7rem;
-                padding-top: 250px;
-                padding-right: 22px;
+                font-size: 2.5rem;
                 color: $marron;
             }
             .frase{
                 font-size: 4rem;
                 color: $marron;
                 padding-top: 20px;
-                padding-bottom: 50px;
+                padding-bottom: 20px;
             }
+        }
     }
     .recomendaciones{
         display: grid;

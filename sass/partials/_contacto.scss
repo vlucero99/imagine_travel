@@ -6,19 +6,25 @@
     font-size: $font-sizeL;
     margin: 50px;
     text-align: center;
+    font-weight: 400;
 }
 
 //segunda sección
 
 .datos{
+
     display: grid;
     grid-template-columns: 1fr 1fr;
         .completar_datos{
             margin: 30px;
             justify-items: center;
                 .boton{
-                    margin-top: 10px;
+                    margin-top: 50px;
                     text-align: center;
+                    button{
+                        background-color: rgb(231, 152, 165);
+                        border: none;
+                    }
                 }
         }
         .datos_empresa{

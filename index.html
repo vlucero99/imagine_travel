@@ -6,6 +6,8 @@
     <meta name="description" content="Imagine Travel es una agencia de viajes distinta, que busca conectarse con las personas y descubrir sus sueños. Es el resultado de sumar experiencias a través de productos de viajes y facilitar la compra para que sea realmente una vivencia inolvidable.">
     <meta name="keywords"  content="Viajes, viajar, paquetes, ofertas, vuelos, turismo, hoteles">
     <title>Imagine Travel</title>
+    <link rel="icon" type="image/jpg" href="./img/png-transparent-travel-agent-computer-icons-flight-travel-logo-world-safari-holidays.png"/>
+
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -14,18 +16,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Quicksand&display=swap" rel="stylesheet">
-    <!-- css main -->
-    <link rel="stylesheet" href="./css/estilos.css">
+    
     <!-- animaciones -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- css main -->
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/Wordmark-Color@500.png" alt="logo de la empresa"></a>
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="./img/Wordmark-Color@500.png" alt="logo de la empresa">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -52,10 +58,13 @@
     <main>
         <!-- Imagen principal (primera sección) -->
         <section class="principal">
-            <h1 class="titulo">Imagine Travel</h1>
-            <p class="frase">El mundo te espera</p>
-            <div class="iniciar_sesion" data-aos="fade-up" data-aos-duration="1000"> 
-                <a href="./pages/mi_cuenta.html">Iniciar Sesión</a></div>
+            <div class="contenedor_titulo">
+                <h1 class="titulo"> Imagine Travel</h1>
+                <p class="frase">El mundo te espera</p>
+                <div class="iniciar_sesion" data-aos="fade-up" data-aos-duration="1000"> 
+                    <a href="./pages/mi_cuenta.html">Iniciar Sesión</a>
+                </div>
+            </div>
         </section>
 
         <!-- Destinos destacados (segunda sección)-->
@@ -123,16 +132,25 @@
         </section>
 
         <!-- Recomendaciones (tercera sección) -->
-        <h4 data-aos="fade-up" data-aos-duration="1000">¿Por qué elegirnos?</h4>
+        <h4>¿Por qué elegirnos?</h4>
         <section class="recomendaciones">
-            <div class="foto_1" data-aos="fade-up" data-aos-duration="500"> <img src="./img/mujer_2.jpg" alt="mujer"> </div>
-            <div class="foto_2" data-aos="fade-up" data-aos-duration="1000"> <img src="./img/familia.jpg" alt="familia"></div>
-            <div class="foto_3" data-aos="fade-up" data-aos-duration="1500"> <img src="./img/hombre.jpg" alt="hombre"></div>
-            <div class="foto_4" data-aos="fade-up" data-aos-duration="2000"> <img src="./img/pareja.jpg" alt="pareja"></div>
-            <div class="historia_1" data-aos="fade-up" data-aos-duration="500"><p class="historia">Excelencia en todos sus aspectos. Prolijos a la hora de organizar el viaje de mis sueños, contestaron todas mis dudas e inquietudes. ¡Sin duda volvería a elegirlos!</p></div>
-            <div class="historia_2" data-aos="fade-up" data-aos-duration="1000"><p class="historia"> Creíamos que volver a viajar después de tener a nuestros hijos iba a ser imposible, pero gracias a Imagine Travel pudimos hacerlo realidad. Excelentes profesionales y excelentes personas.</p></div>
-            <div class="historia_3" data-aos="fade-up" data-aos-duration="1500"><p class="historia"> Si estás buscando una nueva aventura, estás en el lugar correcto. Hicieron de mi viaje una experiencia única, brindando el soporte que necesitaba en cada momento.</p></div>
-            <div class="historia_4" data-aos="fade-up" data-aos-duration="2000"><p class="historia"> Excelente servicio y predisposición. Nos ayudaron aún en la distancia cuando tuvimos problemas con el check-in, pero nos hicieron mantener la calma en todo momento.</p></div>
+            <div class="foto_1" data-aos="fade-up" data-aos-duration="500"> 
+                <img src="./img/mujer_2.jpg" alt="mujer"> 
+            </div>
+            <div class="foto_2" data-aos="fade-up" data-aos-duration="1000"> <img src="./img/familia.jpg" alt="familia">
+            </div>
+            <div class="foto_3" data-aos="fade-up" data-aos-duration="1500"> <img src="./img/hombre.jpg" alt="hombre">
+            </div>
+            <div class="foto_4" data-aos="fade-up" data-aos-duration="2000"> <img src="./img/pareja.jpg" alt="pareja">
+            </div>
+            <div class="historia_1" data-aos="fade-up" data-aos-duration="500"><p class="historia">Excelencia en todos sus aspectos. Prolijos a la hora de organizar el viaje de mis sueños, contestaron todas mis dudas e inquietudes. ¡Sin duda volvería a elegirlos!</p>
+            </div>
+            <div class="historia_2" data-aos="fade-up" data-aos-duration="1000"><p class="historia"> Creíamos que volver a viajar después de tener a nuestros hijos iba a ser imposible, pero gracias a Imagine Travel pudimos hacerlo realidad. Excelentes profesionales y excelentes personas.</p>
+            </div>
+            <div class="historia_3" data-aos="fade-up" data-aos-duration="1500"><p class="historia"> Si estás buscando una nueva aventura, estás en el lugar correcto. Hicieron de mi viaje una experiencia única, brindando el soporte que necesitaba en cada momento.</p>
+            </div>
+            <div class="historia_4" data-aos="fade-up" data-aos-duration="2000"><p class="historia"> Excelente servicio y predisposición. Nos ayudaron aún en la distancia cuando tuvimos problemas con el check-in, pero nos hicieron mantener la calma en todo momento.</p>
+            </div>
         </section>
         <div class="sobre_nosotros" data-aos="fade-up" data-aos-duration="1000">
             <a class="ver_mas" href="./pages/sobre_nosotros.html">Ver más sobre nosotros</a>
